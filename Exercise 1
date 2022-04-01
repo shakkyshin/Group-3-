@@ -1,1 +1,16 @@
+list = [2,3,4,1]
+list_one=[1,2,3,4]
+one_list = [1]
+empty_list = []
 
+def replace_num(list):
+    if len(list)<=1:
+        return list
+    else:
+        list = list[-1:]+list[:-1]
+        return list
+
+print(replace_num(list))
+print(replace_num(list_one))
+print(replace_num(one_list))
+print(replace_num(empty_list))
