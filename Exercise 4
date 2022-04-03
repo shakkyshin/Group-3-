@@ -1,8 +1,0 @@
-chunking_by = [5, 4, 7, 3, 4, 5, 4,]
-chunk_size = [3]
-start = 0
-end = 7
-
-
-for n in range (start,end, 3):
-        print(chunking_by[n:n+3])
